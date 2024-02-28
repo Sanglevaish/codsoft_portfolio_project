@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #61798f; 
+    color: #834d4d;
+    text-align: center;
+    padding: 20px;
+}
+header img {
+    width: 150px; /* Adjust the width of the image as needed */
+    height: auto;
+    border-radius: 50%; /* Creates a circular border for the image */
+}
+
+header h1 {
+    margin: 10px 0;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+#about, #projects, #contact {
+    padding: 50px 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #8e6868;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
